@@ -1,0 +1,10 @@
+git init
+git add . 
+git status
+git commit -m "Initial commit: Add SQL folder"
+
+link your local folder to the GitHub repository:
+git remote add origin https;//GitHub.com/username/my-sql-folder.git
+
+push the folder to the main branch of your GitHub repository:
+git push -u origin main
